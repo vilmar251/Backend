@@ -1,4 +1,3 @@
-export const sayHi = (name = 'Аноним') => {
-  console.log('Привет,', name);
+export const sum = (a, b, c, d, e) => {
+  return a + b + c + d + e;
 };
-sayHi('Анатолий');
