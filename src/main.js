@@ -1,3 +1,3 @@
-import { sum } from './ functions.js';
-const result = sum(1, 2, 3, 4, 5);
+import { power } from './ functions.js';
+const result = power(2, 10);
 console.log(result);
