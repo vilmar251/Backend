@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 
-function isAdult(age) {
+function zadIsAdult(age) {
   if (age >= 18) {
     console.log(chalk.green('Пользователь совершеннолетний'));
     return true;
@@ -13,4 +13,4 @@ function isAdult(age) {
 const randomAge = 15 + Math.floor(Math.random() * 8);
 
 console.log(`Возраст: ${randomAge}`);
-isAdult(randomAge);
+zadIsAdult(randomAge);
