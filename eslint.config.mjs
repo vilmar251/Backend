@@ -8,6 +8,7 @@ export default defineConfig([
     files: ['**/*.js', '**/*.mjs'],
     rules: {
       'prefer-const': 'error',
+      'object-shorthand': 'warn',
     },
   },
   eslintPluginPrettierRecommended,
